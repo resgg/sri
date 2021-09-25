@@ -7,22 +7,12 @@
     <title>Document</title>
 </head>
 <style>
-    *{
-  margin:0px;
-  padding: 0;
-  box-sizing: border-box;
-}
+   
 body,html{
  height:100%;
 
 }
-p{
-  
-  padding:-10px;
-  margin-top: 20px;
-  text-rendering: auto;
-  text-indent: 20px;
-}
+
 h1{
   text-align: center;
 }
@@ -33,63 +23,110 @@ h1{
   transition:color 0.2s linear;
 }
 .card-item{
-  height: 470px;
-  width:600px;
+  height: 650px;
+  width:900px;
   margin:90px;
   background-color:white;
   border-radius: 15px;
   height: 650px;
-  width: 600px;
+  
   background:#f2f2f2;
   border-radius: 20px;
   cursor: pointer;
   box-shadow: 0 0 20px 8px #d0d0d0;
 }
-li{
-    list-style: none;
-    padding:4px;
-}
-.name{
- text-align: center;
-}
-.name1{
-    text-align: left;
-    text-align: justify;
+p{
+  text-align: center;
 }
 h1{
-    text-align: center;
-    font-weight: 900;
-    padding-top: 20px;
-    
+  margin-top: 30px;
 }
-h2{
-    text-align: center;
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+  margin-top: 80px;
 }
 
-span{
-    margin-left:30px;
+table {
+	
+  border-collapse: collapse;
+  
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background: linear-gradient(45deg, #49a09d, #5f2c82);
 }
-hr{
-    border:1px solid black;
+
+th,
+td {
+	padding: 15px;
+	color: #fff;
+  background-color: rgba(255,255,255,0.2);
 }
+
+th {
+	text-align: left;
+}
+
+
+	th {
+		background-color: #55608f;
+	}
+  table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  justify-content: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 </style>
 <body>
-    <section class="card">
-        <div class="card-item">
-          <h1>Preview</h1><br>
-           <ul>
-               <li><p class="name"></p>Name:RESHMA</li>
-               <li><p class="name"></p>Student-ID:0009876</li>
-               <h2>selected subjects</h2>
-               <li><p class="name1"><span>subject 1 </span>:Logistics & Supply Chain Management -Uppliappan Gopalan</p></li>
-               <li><p class="name1"><span>subject 1 </span>:Board Room Simulation - Suresh Srinvasan</p></li>
-               <li><p class="name1"><span>subject 1 </span>:Financial Statement Analysis - Manaswee Samal</p></li>
-               <li><p class="name1"><span>subject 1 </span>:Consumer Behaviour - Bharadwaj  CAP 120 Based on MM & MR Grades</p></li>
-               <li><p class="name1"><span>subject 1 </span>:Deep Learning - AI - Tushar Jaruhar</p></li>
-               
-
-           </ul>
-        </div>
+          <h1>Preview Section</h1><br>
+               <p class="name">Name:RESHMA</p>
+               <p class="name">Student-ID:0009876</p>
+              <form action="">
+               <div class="card">
+               <table class="center" height="350px" width="500px">
+                <tr>
+                  <th>SINO.</th>
+                  <th>Subjects</th>
+                  
+                </tr>
+                <tr>
+                  <td>Subject 1:</td>
+                  <td>Managing Personal Investments -Venkatesh B</td>
+                </tr>
+                <tr>
+                  
+                  <td>Subject 2:</td>
+                  <td>Board Room Simulation - Suresh Srinvasan</td>
+                </tr>
+                <tr>
+                  <td>Subject 3:</td>
+                  <td>Predictive Analytics for Management -PK Viswanathan CAP 120 Based on SMDM & MR Grades</td>
+                </tr>
+                <tr>
+                  <td>Subject 4:</td>
+                  <td>AI and its Implications in a ComplexDigital World - Nikhil Sikka & Venkat Narayanan CAP 90 Based on SMDM & MR Grades</td>
+                </tr>
+                <tr>
+                  <td>Subject 5:</td>
+                  <td>Board Room Simulation - Suresh Srinvasan</td>
+                </tr>
+              </table>
+            </div>
+          </form>
+           </div> 
+          </div> 
     </section>
 </body>
 </html>
