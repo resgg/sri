@@ -15,17 +15,13 @@
       margin-right: 20px;
       color: #fff;
     }
-    .whole{
- display:flex;
-  flex-wrap: wrap;
 
-  transition:color 0.2s linear;
-    }
     
      table {
       width: 100%;
       min-width: 400px;
-      margin: 30px auto 0 auto
+      margin: 5px auto 0 auto;
+      margin-bottom:-100px;
     }
      th {
       border: none;
@@ -47,12 +43,11 @@
     button{
        float:right;
        font-size: 20PX;
+       margin:-10px ;
     }
     .button2{
-        background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #8E2DE2;  /* fallback for old browsers */ background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border: none;
   border-radius: 21px;
   box-shadow: 0px 1px 8px #24c64f;
@@ -65,10 +60,15 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
   transition: 0.25s;
   width: 153px;
   margin:20px;
-    }
+}
 .button2:hover{
     box-shadow: 0px 1px 18px violet;
 }
+.checks{
+    margin-left:200px;
+}
+  
+
 </style>
 </head>
     <body>
@@ -78,7 +78,7 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
              <p class="id">Student-ID:989746</p>
         </div>
      <div class="whole">
-       <table>
+       <table width:100%>
        <tr>
         <th>term</th>
         <th>SINO</th>
@@ -542,8 +542,7 @@ background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, F
  
  <div class="bottom">
     <div class="container1" style="margin: 100px 50px;
-    font-size: 20px;">
-        
+    font-size: 20px;">  
        <button class="button2" onclick="getValue();return false;">Submit</button>
     </div>
    </div>
